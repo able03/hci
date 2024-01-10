@@ -5,32 +5,6 @@
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
-/* .nav-link{
-    color: white !important;
-    opacity: 0.7;
-}
-
-.nav-link:hover{
-    opacity: 1;
-    transition: 0.7s;
-}
-
-.navbar-brand{
-    color: white !important;
-}
-
-.nav-text
-{
-    color: black !important;
-    opacity: 0.7;
-}
-
-.nav-text:hover
-{
-    opacity: 1;
-    transition: 0.5s;
-}
- */
 .footer-bg
 {
     background-color: rgb(230, 230, 230);
@@ -130,10 +104,7 @@ ul.first-col
     width: 200px;
 
 }
-/* .item, .item-short{
-    animation: fade linear;
-    animation-timeline: scroll();    
-} */
+
 
 @keyframes fade 
 {
