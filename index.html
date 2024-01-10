@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" class="font: 5rem"/>
+    <title>Unreal</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <!-- Javascript -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script defer src="js/javascript.js"></script>
+    <script defer src="js/scroll.js"></script>
+
+</head>
+<body class="body-bg">
+    
+    <!-- Navbar -->
+    <section class="navigation">
+        <nav class="navbar navbar-expand-md fixed-top navBar" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="#"><img src="img/logo.png" alt="logo" width="40" height="40"/></a>
+                <a href="#" class="navbar-brand fw-bold ">UNREAL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link nav-change" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link nav-change" href="#collections">COLLECTIONS</a>
+                  <a class="nav-link nav-change" href="#newArrivals">WHATS NEW?</a>
+                  <a class="nav-link me-3 nav-change" href="#questions">FAQ</a>
+                  <a href="/pages/addToCart.html" class="nav-link bi-cart nav-change" width="40" height="40"></a>
+                  <a href="/pages/login.html" class="nav-link bi-person-fill nav-change" width="40" height="40"></a>
+                </div>
+              </div>
+             
+            </div>
+            
+          </nav>
+    </section>
+
+    <!-- Carousel -->
+    <section class="carousel">
+          <div id="carouselCollections" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCollections" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCollections" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCollections" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselCollections" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselCollections" data-bs-slide-to="4" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-img bg-img-1 active" data-bs-interval="2000"></div>
+              <div class="carousel-item carousel-img bg-img-2" data-bs-interval="2000"></div>
+              <div class="carousel-item carousel-img bg-img-3" data-bs-interval="2000"></div>
+              <div class="carousel-item carousel-img bg-img-4" data-bs-interval="2000"></div>
+              <div class="carousel-item carousel-img bg-img-5" data-bs-interval="2000"></div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselCollections" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCollections" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
+      </section>
+
+      <!-- Collections -->
+      <section class="collections bg-white p-5" id="collections">
+        <div class="container">
+          <h2 class="text-center mb-5 fw-bold hidden">Collections</h2>
+          <div class="row g-4">
+
+            <!-- First row -->
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt5.png " class="mb-4 item hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden ">
+              <div class="d-flex flex-column align-items-center ">
+                <a href=""><img src="img/shirt02.png " class="mb-4 item hoverItem"  alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt7.png " class="mb-4 item hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt9.png " class="mb-4 item hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <!-- Second row -->
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center ">
+                <a href=""><img src="img/shirt3.png " class="item mb-4 hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt8.png " class="mb-4 hoverItem" width="100" height="150px" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt4.png " class="mb-4 item hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt6.png " class="mb-4 item hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <!-- Third row -->
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt1.png " class="item mb-4 hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/shirt10.png " class="mb-4 hoverItem" width="150px" height="150px" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short3.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short5.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <!-- Fourth row -->
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short7.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short8.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short2.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-3 hidden">
+              <div class="d-flex flex-column align-items-center">
+                <a href=""><img src="img/short6.png " class="mb-4 item-short hoverItem" alt=""></a>
+                <p>UNREAL Shirt Small</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- New arrivals -->
+      <section class="bg-white p-5" id="newArrivals">
+        <div class="container">
+          <h2 class="text-center fw-bold hidden">New Arrivals</h2>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="row">
+
+                <div class="carousel-item active">
+                  <div class="col-md-3">
+                    <div class="card card-body">
+                      <img src="img/logo.png"  class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card card-body">
+                      <img src="img/logo.png"  class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card card-body">
+                      <img src="img/logo.png"  class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Quote  -->
+      <!-- <section class="quote-bg p-5">
+        <div class="container">
+          <figure class="text-end">
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure> 
+        </div>
+      </section> -->
+
+      <!-- FAQ -->
+      <section class="faq bg-white p-5" id="questions">
+        <div class="container">
+          <div >
+           <p class="h2 text-center mb-4 hidden fw-bold">Frequently Asked Questions</p>
+          </div>
+          <div class="accordion" id="faq">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed hidden" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
+                  Where can I find product sizing information?
+                </button>
+              </h2>
+              <div id="question1" class="accordion-collapse collapse " data-bs-parent="#faq">
+                <div class="accordion-body">
+                  <p>Product sizing varies between different styles. Product size information can be found toward the bottom of each product detail page as shown in the image below. Unless otherwise specified sizing is in inches and is taken with the item lying flat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed hidden" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
+                  How can I pay for my order?
+                </button>
+              </h2>
+              <div id="question2" class="accordion-collapse collapse " data-bs-parent="#faq">
+                <div class="accordion-body">
+                  <p>Our Clothing line currently accepts Visa, MasterCard, Discover, and American Express. We also accept payment via PayPal and Affirm</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed hidden" type="button" data-bs-toggle="collapse" data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
+                  I think I got the sizing wrong on my order, can I exchange it for a different size? 
+                </button>
+              </h2>
+              <div id="question3" class="accordion-collapse collapse " data-bs-parent="#faq">
+                <div class="accordion-body">
+                  <p>We’re happy to send you the right size and do an exchange! Otherwise, we only replace items if they have arrived defective or damaged. If you need to exchange it for the same item in a different size, send us an email at hola@duxton.com before sending your item to:</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed hidden" type="button" data-bs-toggle="collapse" data-bs-target="#question4" aria-expanded="false" aria-controls="question3">
+                    Can I return or exchange an item I bought on sale? 
+                  </button>
+                </h2>
+                <div id="question4" class="accordion-collapse collapse " data-bs-parent="#faq">
+                  <div class="accordion-body">
+                    <p>Unfortunately, all items purchased during a sale or marked at a discounted rate cannot be exchanged or refunded. If you send them back to us for a return we will not be able to process a refund. If you have any questions about sizing, fit, or fabric, please reach out to our customer service before placing your order.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed hidden" type="button" data-bs-toggle="collapse" data-bs-target="#question5" aria-expanded="false" aria-controls="question3">
+                    How long will it take for my order to arrive? 
+                  </button>
+                </h2>
+                <div id="question5" class="accordion-collapse collapse " data-bs-parent="#faq">
+                  <div class="accordion-body">
+                    <p>All standard orders will be shipped 4 to 5 business days of confirmation from our team that they have received your order. If your order includes an item that we indicated will be shipped at a later date, we will only ship the entire order out together once the item arrives.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section class="footer">
+        <div class="footer-bg p-5">
+          <div class="container">
+
+            <section>
+              <div class="row g-4">
+                <div class="col-sm-6 col-lg-3 mb-3">
+                 <div>
+                  <ul class="list-unstyled fs-6">
+                    <h6 class="mb-3 fw-bold hidden">UNREAL CLOTHING</h6>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Search</a></li>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Contact Us</a></li>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Privacy Policy</a></li>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">TRACK ORDER HERE</a></li>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Terms of Service</a></li>
+                    <li><a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Return Policy</a></li>
+                   </ul>
+                 </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 mb-3">
+                  <div>
+                    <h6 class="mb-3 fw-bold hidden">Burn Out? Reach Us:</h6>
+                    <a href="" class="link-dark link-underline-opacity-0 fs-6">
+                      <i class="bi bi-telephone-forward footer-sub hidden">  +63996 000 0000</i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 mb-3">
+                  <h6 class="mb-3 fw-bold hidden">Want to know more?</h6>
+                  <a href="#" class="link-dark link-underline-opacity-0 footer-sub hidden">Send us an email</a>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 mb-3">
+                  <h6 class="mb-3 fs-6 fw-bold hidden">Subscribe Now! Let it burn!</h6>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control footer-sub" placeholder="Email address" aria-label="Email address" aria-describedby="button-addon2">
+                  </div>
+                 <div class="d-grid"> <button class="btn btn-success fs-monospace footer-sub hidden" type="button" id="button-addon2">SUBSCRIBE</button></div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="mb-3 hidden">
+                     <a href="" class="bi bi-facebook text-dark me-3"></a>
+                     <a href="" class="bi bi-twitter text-dark me-3"></a>
+                     <a href="" class="bi bi-instagram text-dark me-3"></a>
+                     <a href="" class="bi bi-youtube text-dark me-3"></a>
+                    </div>
+                    <div class="copyright footer-sub hidden">
+                      <p>&copy; 2024, Unreal | All Rights Reserved</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+
+            </section>
+
+          </div>
+        </div>
+      </section>
+</body>
+</html>
