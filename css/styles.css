@@ -155,3 +155,34 @@ ul.first-col
    transition-delay: 0.2s;
 }
 
+.hoverItemNa:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    transition: 0.5s;
+  
+    transition-delay: 0.2s;
+ }
+
+.container-na{
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: y mandatory;
+}
+
+.container-na .item{
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.items{
+    margin-left: 15px;
+}
+
+.na-bg{
+    background-color:  rgb(230, 230, 230);
+}
+
+.card-na{
+    display: flex;
+    align-items: center;
+}
